@@ -38,7 +38,7 @@ void Tarea2(void *pvParameters) // Esta es una tarea
 void Tarea4(void *pvParameters) // Esta es una tarea
 {
 
-    for (;;) // Una tarea nunca regresará ni saldrá
+    while(1) // Una tarea nunca regresará ni saldrá
     {
         printf("Hola Mundo Tarea4 freeRTOS Estoy corriendo en el nucluo = %d\n\r", xPortGetCoreID());
         vTaskDelay(1000 / portTICK_PERIOD_MS);
