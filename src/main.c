@@ -1,6 +1,10 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
+/*
+El siguiente codigo se encarga de correr diferentes tareas en distintos nucleos del ESP32
+*/
+
 void Tarea1(void *pvParameters) // Esta es una tarea
 {
 
