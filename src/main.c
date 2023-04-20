@@ -7,7 +7,7 @@ El siguiente codigo se encarga de correr diferentes tareas en distintos nucleos 
 
 void Tarea1(void *pvParameters) // Esta es una tarea
 {
-
+    //comentario claudia
     for (;;) // Una tarea nunca regresará ni saldrá
     {
         printf("Hola Mundo Tarea1 freeRTOS Estoy corriendo en el nucluo = %d\n\r", xPortGetCoreID());
